@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WebDriver-TestngParrlelExecution" parallel="tests">
+	<test name="Working Witn FF" preserve-order="true">
+		<parameter name="BROWSER" value="FF" />
+		<classes>
+			<class name="programs.Parallelexecution" />
+		</classes>
+	</test>
+	<test name="Working with IE" preserve-order="ture">
+		<parameter name="BROWSER" value="IE"></parameter>
+		<classes>
+			<class name="programs.Parallelexecution"></class>
+		</classes>
+	</test>
+	<test name="Working with HTML unit" preserve-order="true">
+		<parameter name="BROWSER" value="HU"></parameter>
+		<classes>
+			<class name="programs.Parallelexecution"></class>
+		</classes>
+	</test>
+	<test name="Working with Chrome Browser" preserve-order="true">
+		<parameter name="BROWSER" value="CH"></parameter>
+		<classes>
+			<class name="programs.Parallelexecution"></class>
+		</classes>
+	</test>
+</suite>
