@@ -27,8 +27,8 @@ public class GoogleLoginTestNG {
 		Thread.currentThread().sleep(10000);
 		
 //		WebElement passwd = driver.findElement(By.id("Passwd"));
-		WebElement passwd = driver.findElement(By.cssSelector=input[name="Passwd"]);
-		passwd.sendKeys("mugil123market");
+//		WebElement passwd = driver.findElement(By.cssSelector=input[name="Passwd"]);
+//		passwd.sendKeys("mugil123market");
 		Thread.currentThread().sleep(10000);
 		
 		WebElement nextBtn2 = driver.findElement(By.id("signIn"));
