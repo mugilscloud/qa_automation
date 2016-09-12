@@ -34,7 +34,7 @@ public class GoogleLoginTestNG {
 		WebElement nextBtn2 = driver.findElement(By.id("signIn"));
 		nextBtn2.click();
 		Thread.currentThread().sleep(10000);
-		System.out.println("hi trying merge");
+		System.out.println("hi");
 		
 		String title = driver.getTitle();
 		Assert.assertEquals(title.contains("Inbox"), true);
